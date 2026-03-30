@@ -23,13 +23,13 @@ Unlike basic recon scripts, WILDCAT focuses on **signal over noise**, helping se
 
 ## ⚙️ Features
 
-* 🔍 Subdomain Enumeration (subfinder)
-* 🌐 Alive Host Detection (httpx)
-* 🕷️ Deep Crawling (katana)
-* 📡 Historical URL Collection (gau, waybackurls)
-* 🔗 API Endpoint Extraction
-* 🧠 Smart URL Risk Scoring Engine
-* 📁 Organized Output Files
+1. Subdomain Enumeration (subfinder)
+2. Alive Host Detection (httpx)
+3. URL Crawling (katana)
+4. Historical URL Collection (gau, waybackurls)
+5. API Endpoint Extraction
+6. Smart URL Risk Scoring
+7. Automatic Installation of Required Tools
 
 ---
 
@@ -57,7 +57,7 @@ High-Value Targets
 
 ### Requirements
 
-* Python 3
+* Python 3.10+
 * Go (for installing recon tools)
 
 ### Setup
@@ -83,17 +83,6 @@ Enter target domain:
 ```
 example.com
 ```
-
----
-
-## 📊 Output
-
-Results are saved inside `/output`:
-
-* `all_urls.txt` → Complete URL list
-* `high_risk.txt` → Filtered high-priority targets
-* `api_endpoints.txt` → Extracted API endpoints
-
 ---
 
 ## 🔥 Example Output
